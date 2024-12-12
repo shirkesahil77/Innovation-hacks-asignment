@@ -1,0 +1,41 @@
+/* Custom input styles */
+.custom-input {
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: white;
+    position: relative; /* Position the input container relative */
+  }
+  
+  /* Add padding when there is an icon */
+  .padding-left-icon {
+    padding-left: 30px; /* Space for left icon */
+  }
+  
+  .padding-right-icon {
+    padding-right: 30px; /* Space for right icon */
+  }
+  
+  /* When input is focused */
+  .custom-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Custom placeholder styles */
+  .custom-input::placeholder {
+    color: white; /* Placeholder text color */
+    opacity: 0.7; /* Optional: Make placeholder slightly transparent */
+  }
+  
+  /* Icon styling */
+  .input-icon {
+    font-size: 18px; /* You can adjust this size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

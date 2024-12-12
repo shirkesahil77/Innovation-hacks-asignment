@@ -1,0 +1,32 @@
+.ChatSidebar {
+    width: 300px;
+    height: 100vh;
+    /* background-color: #1c1e24; */
+    position: fixed;
+    left: 250px;
+    top: 0;
+  }
+  
+
+  .input-group-text{
+    /* background-color: #343a40; */
+    
+  }
+  /* .form-control::placeholder {
+    color: #aaa;
+  } */
+  
+  .ChatSidebar .list-group-item {
+    /* background-color: #1c1e24; */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .ChatSidebar .list-group-item:hover {
+    /* background-color: #444857; */
+  }
+  
+  .ChatSidebar i {
+    font-size: 1.2rem;
+  }
+  
